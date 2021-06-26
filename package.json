@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.ts",
+    "start": "npx ts-node reptile.ts",
+    "dev": "nodemon index.ts",
     "build": "tsc --project ./"
   },
   "keywords": [],
